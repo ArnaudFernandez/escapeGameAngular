@@ -1,0 +1,8 @@
+.timerContainer{
+    width : 100vw;
+    text-align: center;
+    color : white;
+    padding-top: 20px;
+    font-size: 1.5em;
+    z-index: 99;
+}

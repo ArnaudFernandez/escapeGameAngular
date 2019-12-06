@@ -1,0 +1,30 @@
+.endContainer {
+    background-image: url('/assets/black.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width : 100vw;
+    height : 100vh;
+    position: absolute;
+    z-index: 999;
+}
+
+.textContainer {
+    color: white;
+    text-align: center;
+    width: 95vw;
+    height: 90vh;
+    margin-top: 15vh;
+    font-size: 1.3em;
+}
+
+.finalScreen {
+    background-image: url('/assets/vaisseau.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 999;
+    background-repeat: no-repeat;
+}

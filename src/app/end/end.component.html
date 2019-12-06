@@ -1,0 +1,15 @@
+<div class="endContainer" [class]="finalBackground()">
+    <div class="textContainer">
+        Vous approchant trop près du signal, vous vous êtes fait attiré par Grosus Magma.<br/><br/><br/><br/>
+        <div *ngIf="firstPop()">
+            Vous tombez durant de longues minutes, dans un silence infini, rien ne semble pouvoir subsister ici...
+        </div><br/><br/><br/><br/>
+        <div *ngIf="secondPop()">
+            Pourtant, vous finissez par voir une lumière au bout de votre périple.
+        </div><br/><br/><br/><br/>
+        <div *ngIf="thirdPop()">
+            Roger est vivant ! Son vaisseau avait traversé Grosus et a atteri dans une nouvelle galaxie ! <br/>
+            Félicitations, vous avez terminé votre aventure.
+        </div>
+    </div>
+</div>

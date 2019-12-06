@@ -1,0 +1,21 @@
+<div class="pinaLounContainer">
+    <div class="quizzContainer" *ngIf="gameOn">
+        <div class="question"></div>
+        <div class="questionLabel">{{getQuestion()}}</div>
+        <mat-radio-group
+                aria-labelledby="example-radio-group-label"
+                class="example-radio-group"
+                [(ngModel)]="question">
+            <mat-radio-button class="example-radio-button" *ngFor="let answer of answers" [value]="answer">
+                {{answer}}
+            </mat-radio-button>
+            <button mat-button (click)="submitAnswer(question)">Répondre !</button>
+            <div class="texte">{{texte}}</div>
+        </mat-radio-group>
+        <div class="endButton">
+            <div>
+                <button *ngIf="isWin" routerLink="/space">Retour à la station</button>
+            </div>
+        </div>
+    </div>
+</div>

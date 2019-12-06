@@ -1,0 +1,11 @@
+<div class="proximaGladiusContainer">
+    <div class="gameContainer">
+        <div *ngIf='gameStarted' class="gameElement red" (click)="playerInputGame(1)"></div>
+        <div *ngIf='gameStarted' class="gameElement green" (click)="playerInputGame(2)"></div>
+        <div *ngIf='gameStarted' class="gameElement blue" (click)="playerInputGame(3)"></div>
+        <div *ngIf='gameStarted' class="gameElement yellow" (click)="playerInputGame(4)"></div>
+    </div>
+
+    <div class="text">{{gameText}}<button mat-raised-button (click)="validateGame()" *ngIf="gameWonBool" routerLink="/space">Retour dans le vaisseau</button></div>
+
+</div>

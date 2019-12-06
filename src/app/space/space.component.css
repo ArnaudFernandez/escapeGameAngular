@@ -1,0 +1,49 @@
+.spaceContainer {
+    background-image: url('/assets/space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width : 100vw;
+    height : 100vh
+}
+
+.planeteUn {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 200px;
+    margin-left: 15vw;
+    position: absolute;
+    background-color: rgba(255,0,0, 0.3);
+}
+
+.planeteUn:hover {
+    background-color: rgba(255,0,0, 0.8);
+}
+
+.planeteDeux {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 300px;
+    margin-left: 70vw;
+    position: absolute;
+    background-color: rgba(255,0,0, 0.3);
+}
+
+.planeteDeux:hover {
+    background-color: rgba(255,0,0, 0.8);
+}
+
+.planeteTrois {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 500px;
+    margin-left: 45vw;
+    position: absolute;
+    background-color: rgba(255,0,0, 0.3);
+}
+
+.planeteTrois:hover {
+    background-color: rgba(255,0,0, 0.8);
+}

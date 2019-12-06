@@ -1,0 +1,59 @@
+.pinaLounContainer{
+    background-image: url('/assets/pinaLoun.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width : 100vw;
+    height : 100vh;
+    position: absolute;
+    z-index: -10;
+}
+
+.quizzContainer {
+    width : 90vh;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+    margin-top: 10vh;
+}
+
+mat-radio-group {
+    color: black;
+}
+
+.labelQuestion {
+    text-align: center;
+    width : 100%;
+    margin-top: 10px;
+}
+
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.example-radio-button {
+    margin: 15px;
+}
+
+.texte {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.questionLabel {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.endButton {
+    margin: auto;
+    width : 100%;
+}
+
+.endButton > div > button {
+    margin: auto;
+    width : 100%;
+}

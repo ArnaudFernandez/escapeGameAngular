@@ -1,0 +1,9 @@
+<div class="spaceContainer">
+    <div class="planeteUn" routerLink="/proximaGladius" routerLinkActive="active" [matTooltip]="proximaStatus()">
+    </div>
+    <div *ngIf="!isGameComplete()" class="planeteDeux" routerLinkActive="active" [matTooltip]="grosusStatus()"></div>
+    <div *ngIf="isGameComplete()" class="planeteDeux" routerLink="/grosusMagma" routerLinkActive="active" [matTooltip]="grosusStatus()">
+    </div>
+    <div class="planeteTrois" routerLink="/pinaLoun" routerLinkActive="active" [matTooltip]="pinaStatus()">
+    </div>
+</div>
